@@ -9,7 +9,7 @@ const projects = [
         description:
             "A cross-platform mobile app that gamifies indoor plant care. Water your real plant, and your virtual Tamagotchi-style sprite reacts — powered by a Raspberry Pi 5 that detects physical watering events and syncs them to the app in real time.",
         tech: ["React Native", "Expo", "TypeScript", "Firebase", "Raspberry Pi 5"],
-        image: "/images/projects/grow-a-gatchi.png",
+        image: "/images/grow-a-gatchi.png",
         github: "https://github.com/nykang17/grow-a-gatchi",
     },
     {
@@ -17,7 +17,7 @@ const projects = [
         description:
             "A multiplayer music composition game where players collaborate in real time to build songs together. Each player controls part of a sequencer, and the result is a shared piece of music — chaotic, fun, and surprisingly creative.",
         tech: ["Svelte", "Node.js", "Express", "Socket.io", "Tailwind CSS", "PostgreSQL"],
-        image: "/images/projects/gartic-band.png",
+        image: "/images/gartic-band.png",
         github: "https://github.com/nykang17/garticband",
     },
     
@@ -29,7 +29,7 @@ const olderProjects = [
         description:
             "A full-stack e-commerce platform built for UCLA students to buy and sell items on campus. Includes real-time chat between buyers and sellers, Google sign-in, and a NoSQL database for managing listings and user accounts.",
         tech: ["React", "Node.js", "JavaScript", "Firebase", "CSS"],
-        image: "/images/projects/bruin-market.png",
+        image: "/images/bruin-market.png",
         github: "https://github.com/nykang17/BruinMarket",
     },
     {
@@ -37,7 +37,7 @@ const olderProjects = [
         description:
             "A 3D remake of the classic browser game Tank Trouble, built from scratch using TinyGraphics. Features keyboard-controlled tanks, collision detection, camera controls, and sound effects — all running in the browser.",
         tech: ["JavaScript", "TinyGraphics"],
-        image: "/images/projects/3d-tank-trouble.png",
+        image: "/images/3d-tank-trouble.png",
         github: "https://github.com/nykang17/CS174A_TankTrouble",
     },
 ];
@@ -53,7 +53,7 @@ const fadeUp = (delay: number) => ({
 
 export default function Projects() {
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true, margin: "-100px" });
+    const isInView = useInView(ref, { once: true, margin: "-50px" });
 
     return (
         <section
@@ -98,7 +98,7 @@ export default function Projects() {
                                 href={project.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex-shrink-0 w-80 h-52 relative rounded overflow-hidden group"
+                                className="flex-shrink-0 w-92 h-60 relative rounded overflow-hidden group"
                                 style={{ border: "1px solid var(--border)" }}
                             >
                             <Image
@@ -215,7 +215,7 @@ export default function Projects() {
                                 href={project.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="relative w-full h-40 group flex-shrink-0"
+                                className="relative w-full h-60 group flex-shrink-0"
                             >
                             <Image
                                 src={project.image}
