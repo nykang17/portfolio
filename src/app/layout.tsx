@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Na Yoon Kang",
-  description: "Software Engineer",
+  description: "CS grad from UCLA turning ideas into working software, one project at a time.",
 };
 
 export default function RootLayout({
