@@ -6,13 +6,13 @@
 
 :root {
   --bg: #f5f0e8;
-  --bg-secondary: #ede8df;
-  --text-primary: #1a1a1a;
-  --text-secondary: #4a4a4a;
-  --text-muted: #7a7a7a;
-  --accent: #2a2a2a;
-  --accent-hover: rgba(42, 42, 42, 0.08);
-  --border: #c8c0b0;
+  --bg-secondary: #ede4d3;
+  --text-primary: #1a0f00;
+  --text-secondary: #4a3728;
+  --text-muted: #8c6b52;
+  --accent: #6b3f1f;
+  --accent-hover: rgba(107, 63, 31, 0.08);
+  --border: #c4a882;
 }
 
 * {
