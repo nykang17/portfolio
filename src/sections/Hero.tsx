@@ -44,7 +44,7 @@ export default function Hero() {
         className="text-4xl md:text-6xl font-semibold mb-6"
         style={{ color: "var(--text-secondary)" }}
       >
-        Fresh grad. Hungry to build.
+        Fresh grad. Ready to build.
       </motion.h2>
 
       <motion.p
