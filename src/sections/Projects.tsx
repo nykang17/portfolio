@@ -5,6 +5,13 @@ import Image from "next/image";
 
 const projects = [
     {
+        title: "LeetGate",
+        description: "A browser extension for Firefox and Edge that blocks distracting websites until you solve a LeetCode problem.",
+        tech: ["JavaScript", "HTML", "CSS", "Browser Extension APIs", "LeetCode API"],
+        image: "/images/leetgate.png",
+        github: "https://github.com/nykang17/leetgate.git",
+    },
+    {
         title: "Grow-a-gatchi",
         description:
             "A cross-platform mobile app that gamifies indoor plant care. Water your real plant, and your virtual Tamagotchi-style sprite reacts — powered by a Raspberry Pi 5 that detects physical watering events and syncs them to the app in real time.",
